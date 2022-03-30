@@ -40,9 +40,24 @@ li {
 
 img {
   border: 1px solid #e67e22;
+  border-radius: 0.25rem;
 }
 
-li {
+.recipe li {
   font-weight: 600;
+  list-style-type: square;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero li {
   list-style-type: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero ul {
+  padding-inline-start: 0px;
 }
